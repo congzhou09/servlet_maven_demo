@@ -6,7 +6,7 @@
 
     <servlet>
         <servlet-name>Hello</servlet-name>
-        <servlet-class>Hello</servlet-class>
+        <servlet-class>com.congzhou.servlet.Hello</servlet-class>
     </servlet>
 
     <servlet-mapping>

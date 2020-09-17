@@ -11,6 +11,11 @@
     <title>Servlet JSP Demo</title>
   </head>
   <body>
-  Hello World!
+  <%
+    out.print("<h2>Hello World!</h2>");
+  %>
+  <p>
+    You are welcome here.
+  </p>
   </body>
 </html>

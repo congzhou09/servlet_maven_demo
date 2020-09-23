@@ -1,6 +1,8 @@
+#### 项目组织
+◆jar包依赖以及Tomcat配置与IDEA配置混在一起不方便版本管理，改用maven组织项目，servlet容器改用maven+jetty-maven-plugin；
 
 #### 启动
-◇配置启动Tomcat；
+◇控制台项目根目录下运行：mvn jetty:run；
 
 ◇访问“http://localhost:8080/servlet_demo/index.jsp”得到jsp运行结果内容；
 

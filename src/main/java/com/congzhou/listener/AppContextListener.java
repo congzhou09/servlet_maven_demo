@@ -10,4 +10,5 @@ public class AppContextListener implements ServletContextListener {
         ServletContext ctx = servletContextEvent.getServletContext();
         System.out.printf("获取参数值: %s \n", ctx.getInitParameter("PARAM"));
     }
+    public void contextDestroyed(ServletContextEvent var1){}
 }

@@ -12,7 +12,7 @@
   </head>
   <body>
   <%
-    out.print("<h2>Hello World!</h2>");
+    out.print("<h2>你好!</h2>");
   %>
   <p>
     You are welcome here.
